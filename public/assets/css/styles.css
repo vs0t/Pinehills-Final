@@ -1,0 +1,402 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0%;
+}
+
+div.logo {
+  width: 100%;
+  height: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+.logo img {
+  height: 125px;
+}
+
+nav {
+  height: fit-content;
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+nav a {
+  padding: 4px 8px;
+  margin: 5px;
+  text-decoration: none;
+  height: 23px;
+  font-family: "Basic Sans", customFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #707070;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  color: #a9d1a9;
+  background-color: #146314;
+}
+
+div.cover_image {
+  height: 50vh;
+  max-height: 3201px;
+  width: 100%;
+  background-image: url("https://golfdeskusa.com/wp-content/uploads/2017/07/KINGb-1080x723.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.image_tint {
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(130, 217, 140, 0.467);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.cover_logo {
+  height: 35vh; /* Ensure this is the desired height */
+  width: 35vw; /* Set a width for the logo */
+  background-image: url("../images/TCTGLogo1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; /* This will ensure the image fits within the div without being cropped */
+}
+
+
+main,
+div#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+#title_container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+#title_line {
+  width: 100%;
+  height: 4px;
+  z-index: 99;
+  position: absolute;
+  background-color: #2b392775;
+}
+#title_oval {
+  height: 80px;
+  width: 60%;
+  min-width: fit-content;
+  border-radius: 35px;
+  z-index: 100;
+  position: absolute;
+  background-color: #1f261f;
+  justify-content: center;
+}
+#title {
+  font-size: 50px;
+  color: rgba(78, 139, 100, 0.58);
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+}
+main img {
+  max-width: 600px;
+}
+main {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Basic Sans", customFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+}
+main div.banner_container {
+  padding: 30px;
+}
+main span.banner {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #28683e;
+}
+main p {
+  font-family: "Basic Sans", customFont;
+  padding: 5px 21%;
+  margin-top: 50px;
+}
+
+.tctgScore-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tctgScore-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: #006400;
+}
+
+.tctgScore-section .button {
+  background: linear-gradient(to bottom, #008000 0%, #006400 100%);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 10%;
+  height: 20%;
+}
+
+main div.divider {
+  height: 5px;
+  background-color: #1f261f;
+}
+main #top_divider {
+  margin: 50px 10% 20px 10%;
+}
+main #bottom_divider {
+  margin: 20px 10% 50px 10%;
+}
+main #image_container {
+  height: 300px;
+}
+main div.img_r_l {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: nowrap;
+  z-index: 99;
+  position: absolute;
+  overflow: hidden;
+  justify-content: space-evenly;
+}
+main div.img_front {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  z-index: 100;
+  position: absolute;
+}
+.img_back img {
+  height: 300px;
+  max-width: 50%;
+  margin: 0px 30px;
+}
+.img_front img {
+  height: 300px;
+  max-width: 100%;
+}
+
+div#content {
+  background-color: #fffa;
+  padding: 0px;
+  margin: 0px;
+  color: #28683e;
+  display: flex;
+  flex-direction: column;
+}
+#content input {
+  border-radius: 5pt;
+}
+#content input.form_submit {
+  background-color: yellow;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+.form_submit:hover {
+  cursor: pointer;
+}
+#content div.contact {
+  padding: 20px;
+  margin-top: 30px;
+  border: rgb(68, 0, 0) solid 1px;
+  border-radius: 5pt;
+}
+#content div.page_title {
+  background-color: #1f261f;
+  width: 100vw;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content h1 {
+  font-family: sans-serif;
+  color: #28683e;
+  height: fit-content;
+  font-size: 4em;
+}
+#content h2 {
+  margin: 50px 0px;
+}
+#content form.form_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+#content div.table_area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  padding: 50px;
+  background-color: #1f261f;
+  border-radius: 50px;
+}
+
+#content .form_area th {
+  height: 30px;
+  color: #707070;
+}
+
+#content input {
+  height: 30px;
+  border-radius: 50px;
+  border-style: none;
+  background-color: rgb(35, 83, 54);
+}
+#content input[type="text"] {
+  color: #fff;
+  padding-left: 10px;
+}
+
+div {
+  text-align: center;
+}
+
+div.result_table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.result_table table {
+  width: 80%;
+  margin: 100px 0px;
+}
+.result_headers th {
+  color: #28683e;
+  font-size: 1.5em;
+}
+
+nav.footer {
+  height: fit-content;
+  padding: 10px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  background-color: #1f261f;
+}
+.footer div {
+  display: flex;
+  flex-direction: column;
+}
+.footer a {
+  padding: 0px 8px;
+  margin: 0px;
+  text-decoration: none;
+  height: 20px;
+  font-family: "Basic Sans", customFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  display: flex;
+  color: #aeb9b1;
+}
+.footer span {
+  padding: 0px 8px;
+  margin: 0px;
+  text-decoration: none;
+  height: 20px;
+  font-family: "Basic Sans", customFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #aeb9b1;
+  align-content: center;
+  padding-top: 10px;
+}
+.footer span.caption {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 15px;
+}
+
+a.icon {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.footer .PDT {
+  color: #aeb9b1;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.footer .pdt {
+  height: 80px;
+  width: auto;
+  margin-top: 5px;
+}
+
+.footer div > img {
+  height: 130px;
+  width: auto;
+  margin: 5px 0;
+}
+
+.footer div {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer a.icon img {
+  width: 30px;
+  height: 30px;
+  margin-top: auto;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  background-color: #28683e;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}

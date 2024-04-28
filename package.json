@@ -1,0 +1,21 @@
+{
+  "name": "aarons-wood_milestone2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "2.18.1",
+    "mysql2": "^2.1.0",
+    "react": "^16.12.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
