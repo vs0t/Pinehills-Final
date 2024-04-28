@@ -42,11 +42,6 @@ This repository contains the code for a fully functional website designed for a 
   cd frontend
   npm start
   ```
-- To run the backend:
-  ```bash
-  cd backend
-  npm run dev
-  ```
 
 ## Usage
 
