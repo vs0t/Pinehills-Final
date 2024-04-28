@@ -39,7 +39,6 @@ This repository contains the code for a fully functional website designed for a 
 ### Running the Application
 - To run the frontend:
   ```bash
-  cd frontend
   npm start
   ```
 
