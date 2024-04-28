@@ -1,7 +1,5 @@
-
-# Golf Course Website
-
 ![logo](https://github.com/vs0t/Pinehills-Final/assets/125901041/a7ef34ea-873a-461f-b927-aa9d64893c47)
+# Golf Course Website
 
 This repository contains the code for a fully functional website designed for a golf course, developed as a Capstone Project. The website is built using Node.js and React, featuring a robust frontend for customers and a secure backend for employees.
 
